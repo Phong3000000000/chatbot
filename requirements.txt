@@ -1,4 +1,3 @@
-"total_input_tokens": 2085,
-"total_cached_tokens": 0,
-"total_output_tokens": 5603,
-"total_tokens": 7688
+flask==2.0.1
+gunicorn==20.1.0
+openai==1.3.0
