@@ -28,7 +28,6 @@ def ask():
         temperature=1,
         max_tokens=225,
         top_p=1,
-        store=False
     )
 
     reply = response.choices[0].message.content
