@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 # Cấu hình CORS cho cả localhost và domain thực tế
-CORS(app, resources={r"/ask": {"origins": ["http://localhost:62416", "https://nguyenlethanhphong.io.vn"]}})
+CORS(app, resources={r"/ask": {"origins": ["http://localhost:62416", "https://booksaw.nguyenlethanhphong.io.vn"]}})
 
 # Lấy API key từ biến môi trường
 api_key = os.getenv("OPENAI_API_KEY")
